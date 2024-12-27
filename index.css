@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  background-color: #f9f9fc;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  width: 100%;
+}
+
+header {
+  background-color: rgb(33, 133, 33);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+header.hidden {
+  transform: translateY(-100%);
+}
+
+#header {
+  transition: transform 0.5s ease;
+}
+
+header #cana {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  margin-right: 400px;
+}
+
+#lar {
+  padding-left: 750px;
+  margin: 20px;
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+nav p img {
+  cursor: pointer;
+  top: 50%;
+  left: 8%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.cabeçario {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: 10px;
+  padding-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.cabeçario:hover {
+  background-color: rgb(32, 127, 32);
+  border-radius: 4px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 400;
+  justify-content: center;
+  padding: 135px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+
+
+
+#mam {
+  display: flex;
+}
+
+iframe {
+  margin-left: 400px;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+#seg {
+  width: 800px;
+  height: 400px;
+  background-color: #fff;
+  font-family: "Lato";
+  margin-left: 100px;
+}
+
+#seg p {
+  color: rgb(173, 171, 171);
+  font-size: 20px;
+  font-family: "Quicksand";
+  font-weight: 500; 
+  margin-top: 0px;
+}
+
+#seg h1 {
+  font-family: "Lato";
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  color: rgb(33, 133, 33);
+
+}
+
+#seg h2 {
+  font-family: "Lato";
+  font-size: 55px;
+  margin-top: -200px;
+  margin-left: 200px;
+  color: rgb(33, 133, 33);
+  padding: 0;
+  margin: 0;
+}
+
+#pri img {
+  width: 450px;
+  height: 450px;
+  margin-left: 25px;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+ 
+
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lato";
+  font-size: 14px;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+  border-radius: 0 0 10 10;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown2 {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: 10px;
+  padding: 5px;
+  font-size: 14px;
+  width: 1px;
+  font-family: "Lato";
+  display: block;
+}
+
+.dropdown2 #in {
+  top: 50%;
+  left: 47%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.dropdown2 #in img {
+  top: 60%;
+  left: 110%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#tri {
+  margin-top: 50px;
+}
+
+#tri h3 {
+  font-size: 22px;
+  font-family: "Lato";
+  color: #4a4a4a;
+  margin: 20px;
+  padding: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  border-left: 3px solid #555;
+  transition: .6s;
+}
+
+#tri h3:hover {
+  color: rgb(33, 133, 33);
+  transition: .6s;
+  border-left: 3px solid rgb(33, 133, 33);
+}
+
+#tri p {
+  color: rgb(136, 135, 135);
+  font-family: "Quicksand";
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+#foo {
+  display: block;
+  
+        
+    bottom: 0;
+    margin-top: 30px;
+        width: 100%;
+        height: 240px;
+      display: flex;
+       
+      background-color:rgb(244, 242, 242);
+        text-align:left;
+     
+        font-family: "Quicksand";
+      padding: 1rem 0;
+    
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
+    
+#na{
+    width: 300px;
+    height: 80px;
+} 
+      
+ .gaga{
+    font-size: 22px;
+ }     
+      
+      h2{font-family: "Lato";
+        padding: 40px;
+    font-weight: 200;
+    margin-top: -40px;
+    font-size: 40px;
+     color:rgb(0, 0, 0);
+        } 
+        #lalo{
+     width: 300px;
+     height: 150px;
+     
+     color:rgb(0, 0, 0);
+    padding: 0 40px;
+    
+    p{
+        color: #000000;
+        padding: 0;
+        
+    }
+     h1{
+        font-weight: 200;
+        color: #000000;
+     }
+      .gaga{
+        padding: 10px;
+        font-family: "Poppins";
+       }
+        }
+        #lalo2{
+         width: 300px;
+         height: 150px;
+         font-family: "Lato";
+     color:#000000;
+     h1{
+        font-weight: 300;
+        
+     }
+     p{
+        color: #000000;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 300;
+ 
+    }
+     a{
+      color: black;
+        
+     }
+ 
+    .gaga{
+        padding: 10px;
+       }
+            } 
+      #lalo3{
+             width: 300px;
+             height: 150px;
+             font-family: "Quicksand";
+           color:#000000;
+    
+    padding-left: 80px;
+    p{
+        color: #000000;
+        padding: 0;
+    }
+           h1{
+            font-weight: 300;
+         }
+         .gaga{
+            padding: 10px;
+           }   }
+     
+      #lalo4{
+                 width: 300px;
+                 height: 150px;
+                 color:#fff;
+                 padding:  10px;
+                 font-family: "Quicksand";
+              
+                 margin-right: 150px;
+                
+                 p{
+                    color: #000000;
+                    padding: 0;
+                }
+        h1{
+            
+                font-weight: 300;
+                font-size: 20px;
+             
+        } 
+         a{
+ display: flex;
+        } 
+        
+        .gaga{
+            padding-left: 40px;
+            font-size: 20px;
+            } 
+           #caca{
+     padding: 20px;
+ margin-top: -12px;
+ 
+ a{color: #000000;
+    font-size: 15px;
+       img{padding: 5px;
+       margin-top: -5px;  }
+ 
+                }
+                
+                
+    }
+ 
+      .gaga{
+         font-family:"Quicksand" ;
+         font-size: 22px;
+     color: #000;
+        }
+      
+       
+       
+  
+    }
+ }
+
+
+@media (max-width: 968px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  #black {
+    padding: 1em;
+  }
+
+  #product-section {
+    padding: 1em;
+  }
+
+  #menu img {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  #tri p {
+    font-size: 17px;
+    width: 100%;
+  }
+
+  #lar {
+    display: none;
+  }
+
+  #pri #ha {
+    width: 300px;
+    height: 300px;
+  }
+
+  #seg {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  iframe {
+    margin-left: 0;
+    width: 90%;
+    height: 300px;
+  }
+
+  #foo {
+    display: block;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(244, 242, 242);
+    text-align: left;
+    font-family: "Quicksand";
+    padding: 1rem 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #foo h1 {
+    text-align: center;
+  }
+
+  #foo p {
+    text-align: center;
+  }
+
+  #foo #na {
+    width: 50px;
+    height: 50px;
+  }
+
+  #foo #caca {
+    text-align: center;
+  }
+
+  #foo #lalo {
+    text-align: center;
+    margin-top: -100px;
+  }
+
+  #foo #ba {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: -30px;
+  }
+
+  #foo #ba #lalo2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 150px;
+  }
+
+  #foo #ba #lalo3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 0;
+    width: 200px;
+    height: 150px;
+  }
+
+  #foo #lalo4 {
+    text-align: center;
+    margin-top: -150px;
+  }
+
+  #foo #lalo4 h1 {
+    text-align: center;
+  }
+
+  #foo #lalo4 #caca {
+    margin-left: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    overflow-x: hidden;
+}
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    background-color: #343a40;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+#sidebar.active {
+    right: 0;
+}
+#sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+#sidebar a:hover {
+    color: #f1f1f1;
+}
+#closeBtn {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 36px;
+}
+#openBtn {
+    font-size: 20px;
+    cursor: pointer;
+}
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+.dropdown-btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.dropdown-btn:hover {
+    color: #f1f1f1;
+}
+.dropdown-btn .fas {
+    float: right;
+    transition: transform 0.3s;
+}
+.dropdown-btn.active .fas {
+    transform: rotate(180deg);
+}
