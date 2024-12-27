@@ -160,7 +160,7 @@ main {
 #pri img {
   width: 450px;
   height: 450px;
- margin-left: 100px;
+ margin-left: 25px;
 }
 
 .dropdown-content2 {
@@ -422,6 +422,7 @@ main {
   #tri p {
     font-size: 17px;
     width: 100%;
+      margin-left: 0px;
   }
 
   #lar {
