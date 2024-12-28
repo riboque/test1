@@ -275,7 +275,8 @@ main {
         color: #000000;
      }
       
-     #peixe{display:flex;}
+     #peixe{display:flex;
+           font-size:50px;}
  }
 
 
