@@ -321,87 +321,308 @@ background-color:black;
     height: 300px;
   }
 
+  
   #foo {
-    display: block;
+
     bottom: 0;
     margin-top: 30px;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(244, 242, 242);
-    text-align: left;
-    font-family: "Quicksand";
-    padding: 1rem 0;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-  }
+        width: 100%;
+        height: 240px;
+      display: flex;
+       
+      background-color:rgb(244, 242, 242);
+        text-align:left;
+     
+        font-family: "Quicksand";
+      padding: 1rem 0;
+    
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
+    
+#na{
+    width: 300px;
+    height: 80px;
+} 
+      
+ .gaga{
+    font-size: 22px;
+ }     
+      
+      h2{font-family: "Lato";
+        padding: 40px;
+    font-weight: 200;
+    margin-top: -40px;
+    font-size: 40px;
+     color:rgb(0, 0, 0);
+        } 
+        #lalo{
+     width: 300px;
+     height: 150px;
+     
+     color:rgb(0, 0, 0);
+    padding: 0 40px;
+    
+    p{
+        color: #000000;
+        padding: 0;
+        
+    }
+     h1{
+        font-weight: 200;
+        color: #000000;
+     }
+      .gaga{
+        padding: 10px;
+        font-family: "Poppins";
+       }
+        }
+        #lalo2{
+         width: 300px;
+         height: 150px;
+         font-family: "Lato";
+     color:#000000;
+     h1{
+        font-weight: 300;
+        
+     }
+     p{
+        color: #000000;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 300;
+ 
+    }
+     a{
+      color: black;
+        
+     }
+ 
+    .gaga{
+        padding: 10px;
+       }
+            } 
+      #lalo3{
+             width: 300px;
+             height: 150px;
+             font-family: "Quicksand";
+           color:#000000;
+    
+    padding-left: 80px;
+    p{
+        color: #000000;
+        padding: 0;
+    }
+           h1{
+            font-weight: 300;
+         }
+         .gaga{
+            padding: 10px;
+           }   }
+     
+      #lalo4{
+                 width: 300px;
+                 height: 150px;
+                 color:#fff;
+                 padding:  10px;
+                 font-family: "Quicksand";
+              
+                 margin-right: 150px;
+                
+                 p{
+                    color: #000000;
+                    padding: 0;
+                }
+        h1{
+            
+                font-weight: 300;
+                font-size: 20px;
+             
+        } 
+         a{
+ display: flex;
+        } 
+        
+        .gaga{
+            padding-left: 40px;
+            font-size: 20px;
+            } 
+           #caca{
+     padding: 20px;
+ margin-top: -12px;
+ 
+ a{color: #000000;
+    font-size: 15px;
+       img{padding: 5px;
+       margin-top: -5px;  }
+ 
+                }
+                
+                
+    }
+ 
+      .gaga{
+         font-family:"Quicksand" ;
+         font-size: 22px;
+     color: #000;
+        }
+      
+       
+       
+  
+    }
+ }
 
-  #foo h1 {
-    text-align: center;
-  }
-
-  #foo p {
-    text-align: center;
-  }
-
-  #foo #na {
-    width: 50px;
-    height: 50px;
-  }
-
-  #foo #caca {
-    text-align: center;
-  }
-
-  #foo #lalo {
-    text-align: center;
-    margin-top: -100px;
-  }
-
-  #foo #ba {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    margin-top: -30px;
-  }
-
-  #foo #ba #lalo2 {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    width: 200px;
-    height: 150px;
-  }
-
-  #foo #ba #lalo3 {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    margin-left: 0;
-    width: 200px;
-    height: 150px;
-  }
-
-  #foo #lalo4 {
-    text-align: center;
-    margin-top: -150px;
-  }
-
-  #foo #lalo4 h1 {
-    text-align: center;
-  }
-
-  #foo #lalo4 #caca {
-    margin-left: 100px;
-  }
-}
 
 
 
 
+#faa {
 
-
-
-
-
+    bottom: 0;
+    margin-top: 30px;
+        width: 100%;
+        height: 240px;
+      display: flex;
+       
+      background-color:rgb(244, 242, 242);
+        text-align:left;
+     
+        font-family: "Quicksand";
+      padding: 1rem 0;
+    
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
+    
+#na{
+    width: 300px;
+    height: 80px;
+} 
+      
+ .gaga{
+    font-size: 22px;
+ }     
+      
+      h2{font-family: "Lato";
+        padding: 40px;
+    font-weight: 200;
+    margin-top: -40px;
+    font-size: 40px;
+     color:rgb(0, 0, 0);
+        } 
+        #lalo{
+     width: 300px;
+     height: 150px;
+     
+     color:rgb(0, 0, 0);
+    padding: 0 40px;
+    
+    p{
+        color: #000000;
+        padding: 0;
+        
+    }
+     h1{
+        font-weight: 200;
+        color: #000000;
+     }
+      .gaga{
+        padding: 10px;
+        font-family: "Poppins";
+       }
+        }
+        #lalo2{
+         width: 300px;
+         height: 150px;
+         font-family: "Lato";
+     color:#000000;
+     h1{
+        font-weight: 300;
+        
+     }
+     p{
+        color: #000000;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 300;
+ 
+    }
+     a{
+      color: black;
+        
+     }
+ 
+    .gaga{
+        padding: 10px;
+       }
+            } 
+      #lalo3{
+             width: 300px;
+             height: 150px;
+             font-family: "Quicksand";
+           color:#000000;
+    
+    padding-left: 80px;
+    p{
+        color: #000000;
+        padding: 0;
+    }
+           h1{
+            font-weight: 300;
+         }
+         .gaga{
+            padding: 10px;
+           }   }
+     
+      #lalo4{
+                 width: 300px;
+                 height: 150px;
+                 color:#fff;
+                 padding:  10px;
+                 font-family: "Quicksand";
+              
+                 margin-right: 150px;
+                
+                 p{
+                    color: #000000;
+                    padding: 0;
+                }
+        h1{
+            
+                font-weight: 300;
+                font-size: 20px;
+             
+        } 
+         a{
+ display: flex;
+        } 
+        
+        .gaga{
+            padding-left: 40px;
+            font-size: 20px;
+            } 
+           #caca{
+     padding: 20px;
+ margin-top: -12px;
+ 
+ a{color: #000000;
+    font-size: 15px;
+       img{padding: 5px;
+       margin-top: -5px;  }
+ 
+                }
+                
+                
+    }
+ 
+      .gaga{
+         font-family:"Quicksand" ;
+         font-size: 22px;
+     color: #000;
+        }
+      
+       
+       
+  
+    }
+ }
 
 
 
