@@ -337,7 +337,27 @@ background-color:black;
       padding: 1rem 0;
     
       box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
-hr{  width: 70%;}
+  #lalo{
+     width: 300px;
+     height: 150px;
+     
+     color:rgb(0, 0, 0);
+    padding: 0 40px;
+    
+    p{
+        color: #000000;
+        padding: 0;
+        
+    }
+     h1{
+        font-weight: 200;
+        color: #000000;
+     }
+      .gaga{
+        padding: 10px;
+        font-family: "Poppins";
+       }
+        }
  }
 
 
