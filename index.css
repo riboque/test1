@@ -429,10 +429,15 @@ main {
     display: none;
   }
 
+#pri{
+  margin-left:100px;}
+
+
+  
   #pri #ha {
     width:250px;
     height: 250px;
-    display:none;
+ 
   }
 
   #seg {
