@@ -275,11 +275,11 @@ main {
         color: #000000;
      }
       
-     #peixe{display:flex;
-           font-size:50px;}
+   
  }
 
-
+  #peixe{display:flex;
+           font-size:50px;}
 @media (max-width: 968px) {
   nav ul {
     flex-direction: column;
