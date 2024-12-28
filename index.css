@@ -311,9 +311,6 @@ background-color:black;
     display: none;
   }
 
-  footer {
-    display: none;
-  }
 
   iframe {
     margin-left: 0;
@@ -330,7 +327,7 @@ background-color:black;
         height: 240px;
 
        
-      background-color:rgb(244, 242, 242);
+      background-color:rgb(244, 242, 0);
         text-align:left;
      
         font-family: "Quicksand";
