@@ -263,14 +263,7 @@ main {
               padding: 1rem 0;
             
               box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
-  
-  #lalo{
-     width: 250px;
-     height: 150px;
-     margin-left:50px;
-     color:rgb(0, 0, 0);
-    padding: 0 40px;
-       background-color:rgb(0, 0, 0);
+ 
     p{
         color: #000000;
         padding: 0;
@@ -282,7 +275,7 @@ main {
         color: #000000;
      }
       
-        }
+     #peixe{display:flex;}
  }
 
 
