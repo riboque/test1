@@ -350,13 +350,11 @@ background-color:black;
         
     }
      h1{
+       margin-top:20px;
         font-weight: 200;
         color: #000000;
      }
-      .gaga{
-        padding: 10px;
-        font-family: "Poppins";
-       }
+      
         }
  }
 
