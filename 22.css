@@ -482,15 +482,11 @@ a{color: #000000;
 
 #pri{
   margin-left:100px;
-background-color:black;
+
   width:450px;
     height: 450px;}
   
-  #pri img {
-    width:250px;
-    height: 250px;
- 
-  }
+
 
   #seg {
     display: none;
