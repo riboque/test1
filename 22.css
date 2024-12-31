@@ -451,6 +451,65 @@ a{color: #000000;
 
 
 
+@media (max-width: 968px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  #black {
+    padding: 1em;
+  }
+
+  #product-section {
+    padding: 1em;
+  }
+
+  #menu img {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  #tri p {
+    font-size: 17px;
+    width: 100%;
+      margin-left: 0px;
+  }
+
+  #lar {
+    display: none;
+  }
+
+#pri{
+  margin-left:100px;
+background-color:black;
+  width:450px;
+    height: 450px;}
+  
+  #pri img {
+    width:250px;
+    height: 250px;
+ 
+  }
+
+  #seg {
+    display: none;
+  }
+
+
+  iframe {
+    margin-left: 0;
+    width: 90%;
+    height: 300px;
+  }
+
+ 
+
+ 
+ }
+
+
+
 
 
 
