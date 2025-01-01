@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    background-color: #f9f9fc;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+
+
+
+header{
+    background-color: rgb(33, 133, 33);
+    position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    height: 50px;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.3s ease;
+      z-index: 1000; 
+}
+
+header.hidden {
+    transform: translateY(-100%);
+    
+  }
+
+#header{
+  transition: transform 0.5s ease;
+}
+
+
+header #cana{
+   margin: 0;padding: 0;
+   width: 50px;
+   height: 50px;
+   margin-right: 400px;
+}
+
+
+#lar{
+    padding-left: 750px;
+margin: 20px;
+
+  margin-top: -0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+     justify-content:space-around ;
+     text-align: center;
+    
+     p{
+      img{
+        cursor: pointer;
+        top:50%;
+        left: 8%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+
+      }
+     }
+}
+.cabeçario{
+    color: rgb(0, 0, 0);
+        text-decoration: none;
+        border: 10px;
+       padding-bottom: 10px;
+       padding: 10px;
+ font-size: 14px;
+   
+    }
+    .cabeçario:hover{
+        background-color:  rgb(32, 127, 32);
+       border-radius: 4px;
+    }
+    a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+       
+
+    }
+    h2{
+        font-weight: 400;
+        justify-content: center;
+         padding: 135px;
+         }
+
+
+
+
+
+
+        #mam{
+            display: flex;
+        }
+
+
+
+iframe{
+  margin-left: 400px;
+}
+
+
+
+
+         main {
+            padding: 2rem;
+        max-width: 1300px;
+            margin: auto;
+         margin-top: 100px;
+            box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px; 
+          
+            background-color: #fff;
+        }
+         #seg{
+          width: 800px;
+          height: 400px;
+          background-color:#fff;
+        font-family: "Lato";
+         
+        margin-left: 100px;
+        
+     
+        
+        
+        
+        
+        p{
+        color: rgb(173, 171, 171);
+        
+        font-size: 20px;
+        font-family:"Quicksand" ;
+        font-weight: 500;
+        }
+        
+          h1{
+            font-family: "Lato";
+             font-size: 45px;
+             margin: 0;
+             padding: 0;
+             color: rgb(33, 133, 33);
+          }
+         }
+         h2{
+            font-family: "Lato";
+            font-size: 45px;
+            margin-top: -70px;
+            margin-left: 0px;
+            color: rgb(33, 133, 33);
+          padding: 0;
+
+         }
+         #pri{
+            img{
+                 width: 450px;
+                 height: 450px;
+                 
+                 margin-left: 25px;
+            }
+         }
+
+
+
+
+
+
+
+
+
+         .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            left: 70%;
+        
+            z-index: 1;
+            border-radius: 10px;
+     
+         top: 125%;
+          left: 47%;
+          position: absolute;
+          transform: translate(-50%,-50%);
+
+          a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          
+   text-align: center;
+            font-size: 15px;
+            font-family: "Lato";
+              font-size: 14px;
+         
+          }
+            }
+          .dropdown-content a:hover {
+            background-color: #ddd;
+            border-radius: 0 0 10 10;
+          }
+          
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          .dropdown{
+            color: rgb(0, 0, 0);
+        text-decoration: none;
+        border: 10px;
+        padding:5px;
+         font-size: 14px;
+          width: 1px;
+          font-family: "Lato";
+
+display: block;
+#in{
+    top: 50%;
+    left: 47%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+  
+    img{
+        top: 60%;
+        left: 110%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+    }
+}
+
+          
+          }
+
+
+
+
+
+
+
+
+#tri{
+    margin-top: 50px;
+
+
+
+
+    h3{
+        font-size: 22px;
+        font-family: "Lato";
+        color: #4a4a4a;
+      margin: 20px;
+      padding: 10px;
+      margin-right: 0;
+      margin-left: 0;
+        border-left: 3px  solid #555;
+        transition: .6s;
+    }
+    h3:hover{
+  color: rgb(33, 133, 33);
+  transition: .6s;
+
+  border-left: 3px  solid rgb(33, 133, 33);
+
+
+
+    }
+    p{
+        color: rgb(136, 135, 135);
+        font-family: "Quicksand";
+        font-size: 20px;
+       
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+footer {
+
+    bottom: 0;
+    margin-top: 30px;
+        width: 100%;
+        height: 240px;
+      display: flex;
+       
+      background-color:rgb(244, 242, 242);
+        text-align:left;
+     
+        font-family: "Quicksand";
+      padding: 1rem 0;
+    
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
+    
+#na{
+    width: 300px;
+    height: 80px;
+} 
+      
+ .gaga{
+    font-size: 22px;
+ }     
+      
+      h2{font-family: "Lato";
+        padding: 40px;
+    font-weight: 200;
+    margin-top: -40px;
+    font-size: 40px;
+     color:rgb(0, 0, 0);
+        } 
+        #lalo{
+     width: 300px;
+     height: 150px;
+     
+     color:rgb(0, 0, 0);
+    padding: 0 40px;
+    
+    p{
+        color: #000000;
+        padding: 0;
+        
+    }
+     h1{
+        font-weight: 200;
+        color: #000000;
+     }
+      .gaga{
+        padding: 10px;
+        font-family: "Poppins";
+       }
+        }
+        #lalo2{
+         width: 300px;
+         height: 150px;
+         font-family: "Lato";
+     color:#000000;
+     h1{
+        font-weight: 300;
+        
+     }
+     p{
+        color: #000000;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 300;
+ 
+    }
+     a{
+      color: black;
+        
+     }
+ 
+    .gaga{
+        padding: 10px;
+       }
+            } 
+      #lalo3{
+             width: 300px;
+             height: 150px;
+             font-family: "Quicksand";
+           color:#000000;
+    
+    padding-left: 80px;
+    p{
+        color: #000000;
+        padding: 0;
+    }
+           h1{
+            font-weight: 300;
+         }
+         .gaga{
+            padding: 10px;
+           }   }
+     
+      #lalo4{
+                 width: 300px;
+                 height: 150px;
+                 color:#fff;
+                 padding:  10px;
+                 font-family: "Quicksand";
+              
+                 margin-right: 150px;
+                
+                 p{
+                    color: #000000;
+                    padding: 0;
+                }
+        h1{
+            
+                font-weight: 300;
+                font-size: 20px;
+             
+        } 
+         a{
+ display: flex;
+        } 
+        
+        .gaga{
+            padding-left: 40px;
+            font-size: 20px;
+            } 
+           #caca{
+     padding: 20px;
+ margin-top: -12px;
+ 
+ a{color: #000000;
+    font-size: 15px;
+       img{padding: 5px;
+       margin-top: -5px;  }
+ 
+                }
+                
+                
+    }
+ 
+      .gaga{
+         font-family:"Quicksand" ;
+         font-size: 22px;
+     color: #000;
+        }
+      
+       
+       
+  
+    }
+ }
+
+
+
+
