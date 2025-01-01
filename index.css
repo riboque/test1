@@ -529,7 +529,7 @@ background-color:black;
 
 
 
-
+ #343a40
 
 
 body {
@@ -541,7 +541,7 @@ body {
     position: fixed;
     top: 0;
     right: -250px;
-    background-color: #343a40;
+    background-color:#ff9;
     transition: 0.3s;
     padding-top: 60px;
 }
