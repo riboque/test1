@@ -165,71 +165,62 @@ font-size: 14px;
 
   
 
-  
-.dropdown-content {
+ 
+.dropdown-content2 {
   display: none;
   position: absolute;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  left: 70%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+ 
 
-  z-index: 1;
-  border-radius: 10px;
+}
 
-top: 125%;
-left: 47%;
-position: absolute;
-transform: translate(-50%,-50%);
-
-a {
+.dropdown-content2 a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-
-text-align: center;
+  text-align: center;
   font-size: 15px;
   font-family: "Lato";
-    font-size: 14px;
-
+  font-size: 14px;
 }
-  }
-.dropdown-content a:hover {
+
+.dropdown-content2 a:hover {
   background-color: #ddd;
   border-radius: 0 0 10 10;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown2:hover .dropdown-content2 {
   display: block;
 }
-.dropdown{
+
+.dropdown2 {
   color: rgb(0, 0, 0);
-text-decoration: none;
-border: 10px;
-padding:5px;
-font-size: 14px;
-width: 1px;
-font-family: "Lato";
-
-display: block;
-#in{
-top: 50%;
-left: 47%;
-position: absolute;
-transform: translate(-50%,-50%);
-
-
-img{
-top: 60%;
-left: 110%;
-position: absolute;
-transform: translate(-50%,-50%);
-}
+  text-decoration: none;
+  border: 10px;
+  padding: 5px;
+  font-size: 14px;
+  width: 1px;
+  font-family: "Lato";
+  display: block;
 }
 
-
+.dropdown2 #in {
+  top: 50%;
+  left: 47%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
+
+.dropdown2 #in img {
+  top: 60%;
+  left: 110%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
   
   main {
     padding: 2rem;
