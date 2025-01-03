@@ -232,19 +232,12 @@ ul{margin-left: 100px;
         
         .dropdown2 #in {
           top: 50%;
-          left: 55%;
+          left: 70%;
           position: absolute;
           transform: translate(-50%, -50%);
         }
         
-        .dropdown2 #in img {
-          top: 60%;
-          left: 110%;
-          position: absolute;
-          transform: translate(-50%, -50%);
-        }
-
-
+      
 
   
   main {
