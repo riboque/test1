@@ -309,7 +309,8 @@ p{
     }
    }
    #ini{
-  display: flex;
+  display: gird;
+     background-color:rgb(0, 0, 0)         
    }
    
 footer {
