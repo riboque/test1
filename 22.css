@@ -263,11 +263,11 @@ p{
   box-shadow: 0px x rgba(255, 255, 255, .9);
   margin-left: 100px;
   
-font-size: 20px;
+font-size: 40px;
   h2{
-    font-size: 22px;
+    font-size: 45px;
     font-family: "Lato";
-    color: #4a4a4a;
+    color: rgb(33, 133, 33);
 }
 p{
     color: rgb(136, 135, 135);
