@@ -255,47 +255,26 @@ p{
 
     }
  }
-seg {
-  width: 600px;
-  height: 400px;
-  background-color: #fff;
+  #seg{
+    width: 800px;
+    height: 400px;
+    background-color:#fff;
   font-family: "Lato";
+  box-shadow: 0px x rgba(255, 255, 255, .9);
   margin-left: 100px;
+  
+font-size: 20px;
+  h3{
+    font-size: 22px;
+    font-family: "Lato";
+    color: #4a4a4a;
 }
-
-#seg p {
-  color: rgb(173, 171, 171);
-  font-size: 20px;
-  font-family: "Quicksand";
-  font-weight: 500; 
-  margin-top: 0px;
-         width: 400px;
-}
-
-#seg h1 {
-  font-family: "Lato";
-  font-size: 35px;
-  margin: 0;
-  padding: 0;
-  color: rgb(33, 133, 33);
-
-}
-
-#seg h2 {
-  font-family: "Lato";
-  font-size: 55px;
-  margin-top: -200px;
-  margin-left: 200px;
-  color: rgb(33, 133, 33);
-  padding: 0;
-  margin: 0;
-}
-
 p{
     color: rgb(136, 135, 135);
     font-family: "Quicksand"; font-weight: 500;
 }
   
+
   
   
  
