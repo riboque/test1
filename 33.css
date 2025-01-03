@@ -93,11 +93,12 @@ font-size: 14px;
   a{
       color: rgb(255, 255, 255);
       text-decoration: none;
-    
+   
   }
     
 
-      
+      ul{margin-left: 100px;
+      }
    
 
       h2{
@@ -132,35 +133,62 @@ font-size: 14px;
           
             background-color: #fff;
         }
-         #seg{
+         
+
+
+
+
+ 
+        #seg {
           width: 800px;
           height: 400px;
-          background-color:#fff;
-        font-family: "Lato";
-         font-size: 20px;
-        margin-left: 100px;
-        
-     
-        
-        
-        
-        
-        p{
-        color: rgb(173, 171, 171);
-        
-        
-        font-family:"Quicksand" ;
-        font-weight: 500;
+          background-color: #fff;
+          font-family: "Lato";
+          margin-left: 100px;
         }
         
-          h1{
-            font-family: "Lato";
-             font-size: 45px;
-             margin: 0;
-             padding: 0;
-             color: rgb(33, 133, 33);
-          }
-         }
+        #seg p {
+          color: rgb(173, 171, 171);
+          font-size: 20px;
+          font-family: "Quicksand";
+          font-weight: 500; 
+          margin-top: 0px;
+        }
+        
+        #seg h1 {
+          font-family: "Lato";
+          font-size: 50px;
+          margin: 0;
+          padding: 0;
+          color: rgb(33, 133, 33);
+        
+        }
+        
+        #seg h2 {
+          font-family: "Lato";
+          font-size: 55px;
+          margin-top: -200px;
+          margin-left: 200px;
+          color: rgb(33, 133, 33);
+          padding: 0;
+          margin: 0;
+        }
+        
+          
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
          h2{
             font-family: "Lato";
             font-size: 45px;
@@ -183,69 +211,62 @@ font-size: 14px;
 
 
 
-         .dropdown-content {
+ 
+         .dropdown-content2 {
           display: none;
           position: absolute;
           background-color: white;
           min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          left: 70%;
-      
-          z-index: 1;
-          border-radius: 10px;
-   
-       top: 125%;
-        left: 47%;
-        position: absolute;
-        transform: translate(-50%,-50%);
-
-        a {
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+         margin-left: -180px;
+        margin-top: 30px; 
+        border-radius: 10px;
+        }
+        
+        .dropdown-content2 a {
           color: black;
           padding: 12px 16px;
           text-decoration: none;
           display: block;
-        
- text-align: center;
+          text-align: center;
           font-size: 15px;
           font-family: "Lato";
-            font-size: 14px;
-       
+          font-size: 14px;
         }
-          }
-        .dropdown-content a:hover {
+        
+        .dropdown-content2 a:hover {
           background-color: #ddd;
           border-radius: 0 0 10 10;
         }
         
-        .dropdown:hover .dropdown-content {
+        .dropdown2:hover .dropdown-content2 {
+          display: block;
+          border-radius: 10px;
+        }
+        
+        .dropdown2 {
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          border: 10px;
+          padding: 5px;
+          font-size: 14px;
+          width: 1px;
+          font-family: "Lato";
           display: block;
         }
-        .dropdown{
-          color: rgb(0, 0, 0);
-      text-decoration: none;
-      border: 10px;
-      padding:5px;
-       font-size: 14px;
-        width: 1px;
-        font-family: "Lato";
-
-display: block;
-#in{
-  top: 50%;
-  left: 47%;
-  position: absolute;
-  transform: translate(-50%,-50%);
-
-
-  img{
-      top: 60%;
-      left: 110%;
-      position: absolute;
-      transform: translate(-50%,-50%);
-  }
-}
-
         
+        .dropdown2 #in {
+          top: 50%;
+          left: 55%;
+          position: absolute;
+          transform: translate(-50%, -50%);
+        }
+        
+        .dropdown2 #in img {
+          top: 60%;
+          left: 110%;
+          position: absolute;
+          transform: translate(-50%, -50%);
         }
 
 
@@ -389,7 +410,155 @@ background-color:black;
 
 
 
+ #faa {
+        
+  bottom: 0;
+  margin-top: 30px;
+      width: 100%;
+      height: 240px;
+    display: flex;
+     
+    background-color:rgb(244, 242, 242);
+      text-align:left;
+   
+      font-family: "Quicksand";
+    padding: 1rem 0;
+  
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
+  
+#na{
+  width: 300px;
+  height: 80px;
+} 
+    
+.gaga{
+  font-size: 22px;
+  color: #000;
+}     
+    
+    h2{font-family: "Lato";
+      padding: 40px;
+  font-weight: 200;
+  margin-top: -40px;
+  font-size: 40px;
+   color:rgb(0, 0, 0);
+      } 
+      #lalo{
+   width: 300px;
+   height: 150px;
+   
+   color:rgb(0, 0, 0);
+  padding: 0 40px;
+  
+  p{
+      color: #000000;
+      padding: 0;
+      
+  }
+   h1{
+      font-weight: 200;
+      color: #000000;
+   }
+    .gaga{
+      padding: 10px;
+      font-family: "Poppins";
+     }
+      }
+      #lalo2{
+       width: 300px;
+       height: 150px;
+       font-family: "Lato";
+   color:#000000;
+   h1{
+      font-weight: 300;
+      
+   }
+   p{
+      color: #000000;
+      padding: 0;
+      font-size: 18px;
+      font-weight: 300;
 
+  }
+   a{
+    color: black;
+      
+   }
+
+  .gaga{
+      padding: 10px;
+     }
+          } 
+    #lalo3{
+           width: 300px;
+           height: 150px;
+           font-family: "Quicksand";
+         color:#000000;
+  
+  padding-left: 80px;
+  p{
+      color: #000000;
+      padding: 0;
+  }
+         h1{
+          font-weight: 300;
+       }
+       .gaga{
+          padding: 10px;
+         }   }
+   
+    #lalo4{
+               width: 300px;
+               height: 150px;
+               color:#fff;
+               padding:  10px;
+               font-family: "Quicksand";
+            
+               margin-right: 150px;
+              
+               p{
+                  color: #000000;
+                  padding: 0;
+              }
+      h1{
+          
+              font-weight: 300;
+              font-size: 20px;
+           
+      } 
+       a{
+display: flex;
+      } 
+      
+      .gaga{
+          padding-left: 40px;
+          font-size: 20px;
+          } 
+         #caca{
+   padding: 20px;
+margin-top: -12px;
+
+a{color: #000000;
+  font-size: 15px;
+     img{padding: 5px;
+     margin-top: -5px;  }
+
+              }
+              
+              
+  }
+
+    .gaga{
+       font-family:"Quicksand" ;
+       font-size: 22px;
+   color: #000;
+      }
+    
+     
+     
+
+  }
+}
 
 
 
