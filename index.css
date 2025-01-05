@@ -532,7 +532,115 @@ a{color: #000000;
 
 
 
+ #peixe{    
+              #atum2{
+         width: 300px;
+         height: 150px;
+         font-family: "Lato";
+     color:#000000;
+     h1{
+        font-weight: 300;
+        
+     }
+     p{
+        color: #000000;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 300;
+ 
+    }
+     a{
+      color: black;
+        
+     }
+ 
+    .gaga{
+        padding: 10px;
+       }
+            } 
+      #atum3{
+             width: 300px;
+             height: 150px;
+             font-family: "Quicksand";
+           color:#000000;
+    margin-left: -50px;
+    padding-left: 80px;
+    p{
+        color: #000000;
+        padding: 0;
+    }
+           h1{
+            font-weight: 300;
+            width: 200px;
+         }
+         .gaga{
+            padding: 10px;
+           }   }
+     #atum4{
+                 width:300px;
+                 height: 150px;
+                 color:#fff;
+                 padding:  10px;
+                 font-family: "Quicksand";
+              
+           
+                
+                 p{
+                    color: #000000;
+                    padding: 0;
+                }
+        h1{
+            
+                font-weight: 300;
+                font-size: 20px;
+             
+        } 
+         a{
+ display: flex;
+        } 
+        
+        .gaga{
+            padding-left: 40px;
+            font-size: 20px;
+            } 
+           #caca{
+     padding: 20px;
+ margin-top: -12px;
+ #siga{   
+ margin-left: 400px;
 
+
+
+  a{color: #adadad; 
+    font-size: 15px;
+       img{padding: 5px;
+       margin-top: -5px;  }
+ 
+                }}
+ 
+                
+                
+    }
+ 
+      .stp{
+         font-family:"Quicksand" ;
+         font-size: 22px;
+     color: #818181;
+        }
+      
+       
+       
+  
+    }}
+  
+    .hr{margin-top: -70px; }    
+    .hr2{margin-top: 0px;
+      width:260px;
+      margin-left:30px; }  
+  .at{
+ display: inline;
+    margin-left: 100px;
+  }
 
 
 
