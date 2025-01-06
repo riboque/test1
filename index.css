@@ -502,99 +502,89 @@ a{color: #000000;
 
 
 
+/* Estilos gerais para o footer */
+#foo {
+  background-color:rgb(244, 242, 242);
+  color: rgb(9, 8, 8);
+  padding: 20px;
+  text-align: center;
+  font-family: "Quicksand";
+}
 
+#foo .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
-    
-#na2{
-    width: 50px;
-    height: 50px;
-} 
-  #mo{
-    text-align: center;
-    margin-left: 100px;
-  }     #me{
-    text-align: center;
-
-  } 
- .stp{
-    font-size: 20px;
- }     
-      
-      h2{font-family: "Lato";
-        padding: 40px;
-    font-weight: 200;
-    margin-top: -40px;
-    font-size: 40px;
-     color:rgb(0, 0, 0);
-        } 
-        #atum{
-     width: 300px;
-     height: 150px;
-     
-     color:rgb(0, 0, 0);
-    padding: 0 40px;
-    
-    p{
-        color: #818181;
-        padding: 0;
-        
-    }
-     h1{
-        font-weight: 200;
-        color: #000000;
-     }
-      
-        }
-
-
-                
-                
-    
- 
-      .stp{
-         font-family:"Quicksand" ;
-         font-size: 22px;
-     color: #818181;
-        }
-      
-       
-       
   
-    
+}
+.footer-section1 #sec{
+  margin-left: 80px;
+}
+.footer-section1 #sef{
+  margin-left: 20px;
+}
+.footer-section1  {
+display: flex;
+  margin: 10px 0;
+}
+#foo .footer-container .footer-section .footer-section1 {
+  margin: 10px 0;
   
-    .hr{margin-top: -70px; }    
-    .hr2{margin-top: 0px;
-      width:260px;
-      margin-left:30px; }  
-  .at{
- display: inline;
-    margin-left: 100px;
+}
+#foo .footer-container .footer-section h1, .footer-section1 h1{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#foo .footer-container .footer-section1 p,
+#foo .footer-container .footer-section1 a,
+#foo .footer-container .footer-section p,
+#foo .footer-container .footer-section a {
+  font-size: 14px;
+  color: rgb(10, 9, 9);
+  text-decoration: none;
+}
+
+#foo .footer-container .footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos responsivos para telas menores que 600px */
+@media (max-width: 860px) {
+  #foo {
+    padding: 10px;
   }
+
+  #foo .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #foo .footer-container .footer-section {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  #foo .footer-container .footer-section h1 {
+    font-size: 16px;
+  }
+
+  #foo .footer-container .footer-section p,
+  #foo .footer-container .footer-section a {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
