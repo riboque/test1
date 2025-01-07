@@ -704,11 +704,7 @@ body {
   text-align: center;
   font-family: "Quicksand";
     margin-top:100%;
-      
-top: 300%;
-left: 50%;
-position: absolute;
-transform: translate(-50%, -50%);
+
 }
 
 #foo .footer-container {
