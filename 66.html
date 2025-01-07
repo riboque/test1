@@ -8,13 +8,14 @@
      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <style>
-             @media (max-width: 1280px) {
+                      @media (max-width: 1280px) {
             .container, #segundo-menu {
                 display: none;
             }
                #be{ display: none;}
             #pra{display:none;}
-           
+            
+
 ul{margin-left: -100px;}
 
 .dropdown2 #in {
@@ -23,14 +24,19 @@ ul{margin-left: -100px;}
   position: absolute;
   transform: translate(-50%, -50%);
 }}
-     
+        @media (min-width: 600px) {
+            .container, #segundo-menu {
+                display: none;
+            }
+               #be{ display: none;}
+            #pra{display:none;}
+                 #foo{display:none;}
+        }
         @media (max-width: 600px) {
             .container, #segundo-menu {
                 display: block;
             }
-
-            #seg{display:none;}
-            #faa{display:none;}  
+            #faa{display:none;}
             #openBtn{ font-size:30px;
                      width: 25px;
                        height: 25px;
@@ -59,11 +65,10 @@ ul{margin-left: -100px;}
          width: 300px;
     }
      
-    #foo{   height:70vh;  }
+    #foo{   height:40vh;  }
   
        
  }
-
   #peixe{display:flex;
          width:100%;
        
