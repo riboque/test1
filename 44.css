@@ -396,13 +396,13 @@ font-size: 14px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   #tri p {
     font-size: 17px;
     width: 100%;
       margin-left: 0px;
   }
-
+main{ width: auto;}
   #lar {
     display: none;
   }
