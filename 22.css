@@ -653,6 +653,7 @@ body {
   text-align: center;
   font-family: "Quicksand";
       box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); 
+        color:#000;
 }
 
 #foo .footer-container {
@@ -660,12 +661,12 @@ body {
   flex-direction: column;
   align-items: center;
 
-  
+  color:#000;
 }
 
 #foo .footer-container .footer-section  {
   margin: 10px 0;
-  
+  color:#000;
 }
 #foo .footer-container .footer-section h1{
   font-size: 18px;
@@ -677,6 +678,7 @@ body {
 #foo .footer-container .footer-section a {
   font-size: 14px;
   color: rgb(10, 9, 9);
+
   text-decoration: none;
 }
 
