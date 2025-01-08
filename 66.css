@@ -294,35 +294,35 @@ iframe{
 
 
 
-#tri{
-    margin-top: 80px;
+#tri {
+  margin-top: 50px;
+}
 
+#tri h3 {
+  font-size: 22px;
+  font-family: "Lato";
+  color: #4a4a4a;
+  margin: 20px;
+  padding: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  border-left: 3px solid #555;
+  transition: .6s;
+}
 
-
-
-    h3{
-        font-size: 22px;
-        font-family: "Lato";
-        color: #4a4a4a;
-      margin: 40px;
-      padding: 10px;
-      margin-right: 0;
-      margin-left: 0;
-        border-left: 3px  solid #555;
-        transition: .6s;
-    }
-    h3:hover{
+#tri h3:hover {
   color: rgb(33, 133, 33);
   transition: .6s;
+  border-left: 3px solid rgb(33, 133, 33);
+}
 
-  border-left: 3px  solid rgb(33, 133, 33);}
+#tri p {
+  color: rgb(136, 135, 135);
+  font-family: "Quicksand";
+  font-size: 20px;
+  padding: 10px;
+}
 
-
-
-
-
-
-    }
 
 
 
