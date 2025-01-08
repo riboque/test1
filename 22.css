@@ -666,26 +666,18 @@ body {
 
   
 }
-.footer-section1 #sec{
-  margin-left: 20px;
-}
-.footer-section1 #sef{
-  margin-left: 20px;
-}
-.footer-section1  {
-display: flex;
-  margin: 10px 0;
-}
-#foo .footer-container .footer-section .footer-section1 {
+
+
+#foo .footer-container .footer-section  {
   margin: 10px 0;
   
 }
-#foo .footer-container .footer-section h1, .footer-section1 h1{
+#foo .footer-container .footer-section h1{
   font-size: 18px;
   margin-bottom: 10px;
+         color: rgb(9, 8, 8);
 }
-#foo .footer-container .footer-section1 p,
-#foo .footer-container .footer-section1 a,
+
 #foo .footer-container .footer-section p,
 #foo .footer-container .footer-section a {
   font-size: 14px;
